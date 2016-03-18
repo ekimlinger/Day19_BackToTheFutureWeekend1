@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Weekend Challenge 1: Employee Records</title>
+    <script type="text/javascript" src="/vendors/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="/assets/scripts/app.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="/vendors//bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/styles/stylesheet.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="header clearfix">Weekend Challenge 1: Employee Records</h1>
+      <div class="jumbotron">
+        <h2 class="running-total"></h2>
+        <form id="employeeForm">
+
+          <p>
+            <label for="name">Employee's full name: </label>
+            <input type="text" id="name" name="name" placeholder="Employee name." required/>
+          </p>
+
+          <p>
+          <label for="number">Employee number: </label>
+          <input type="number" id="number" name="number" placeholder="Employee number." step="1" min="0" required/>
+          </p>
+
+          <p>
+          <label for="job">Employee's job: </label>
+          <input type="text" id="job" name="job" placeholder="Employee job." required/>
+          </p>
+
+          <p>
+          <label for="salary">Employee's salary: </label>
+          <input type="number" id="salary" name="salary" placeholder="Employee salary." step="1" min="0" required/>
+          </p>
+          <p class="submit">
+            <p class="just-submitted"></p>
+            <input type="submit" id="submit" class="btn-danger" value="Submit Application" />
+          </p>
+        </form>
+        <div class="drop-down">
+          <p>Show : </p>
+          <button class="drop-down-submit" type="submit">Enter Employee</button>
+          <select class="drop-down-menu" >
+            <option>SELECT</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="employee-data">
+        <!-- Show Calculation of all employee's data -->
+      </div>
+    </div>
+  </body>
+
+
+</html>

@@ -1,0 +1,73 @@
+body{
+  margin:0;
+  background: rgb(200,200,200);
+  font-family: sans-serif;
+}
+h1{
+  top:0px;
+  margin: 0;
+  padding:30px;
+  background: linear-gradient(grey, black) ;
+  text-align:center;
+  color:tomato;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  box-shadow: 2px 5px teal;
+}
+.jumbotron{
+  margin: 15px auto;
+  padding: 10px 20px;
+}
+.employeeForm{
+  display: inline-block;
+}
+input[type="text"],input[type="number"]{
+  float: right;
+}
+.submit{
+  text-align: right;
+  float: right;
+}
+input[type="submit"]{
+  width: 234px;
+  box-shadow: gray 4px 4px;
+  float: right;
+}
+input[type="submit"]:active{
+  box-shadow:none;
+  background: grey;
+  text-decoration: white underline;
+}
+.drop-down p{
+  display: inline-block;
+}
+.drop-down select{
+
+  width: 130px;
+  margin: 3px 0px 3px 4px;
+  height: 0px;
+}
+.drop-down-submit{
+  width: 234px;
+  box-shadow: gray 4px 4px;
+  float: right;
+}
+.drop-down-submit:active{
+  box-shadow:none;
+  background: grey;
+  text-decoration: white underline;
+}
+.recent-submit{
+  display:inline-block;
+  width: 250px;
+  text-align: center;
+  border:1px solid black;
+  margin:15px;
+  padding: 15px 15px;
+  background: linear-gradient(white, grey) ;
+  border-radius:5px;
+  box-shadow: 4px 4px rgba(20,20,20,.90);
+}
+.just-submitted{
+  display: inline-block;
+}
